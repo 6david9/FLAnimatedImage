@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.author           = { "Raphael Schaad" => "raphael.schaad@gmail.com" }
   spec.social_media_url = "https://twitter.com/raphaelschaad"
   spec.platform         = :ios, "6.0"
-  spec.source           = { :git => "https://github.com/Flipboard/FLAnimatedImage.git", :tag => spec.version }
+  spec.source           = { :git => "https://github.com/Flipboard/FLAnimatedImage.git", :commit => '4cf126aa9f06bda8baa006118350603ffe87754b' }
   spec.frameworks       = "QuartzCore", "ImageIO", "MobileCoreServices", "CoreGraphics"
   spec.requires_arc     = true
 
